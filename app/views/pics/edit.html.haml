@@ -2,10 +2,6 @@
 	.row
 		.panel.panel-default
 			.panel-heading
-				%h1 Fix Pic!
+				%h1 Fix Pic
 			.panel-body
-				.current_image
-				%strong.center Right Now
-				= image_tag @pic.image.url(:medium)
-			= render 'form'
-= link_to "Cancel", pic_path
+				= render 'form'
